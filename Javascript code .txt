@@ -1,0 +1,332 @@
+/* window.alert("Hi");
+
+document.getElementById("gg").innerHTML = "Hi";
+document.write("Hiiii");
+
+console.log("hello js");
+
+var userName = "Amin";
+console.log(typeof(userName));
+
+var numb = 50;
+console.log(typeof(numb));
+
+var ob = null;
+console.log(typeof(ob));
+
+var isTrue = true;
+console.log(typeof(isTrue));
+*/
+
+
+/* var first = 'Amin';
+var last = prompt('Enter Yours ');
+console.log(first + ' ' + last); */
+
+// 1
+/*
+
+var num = prompt();
+console.log(num);
+
+*/
+// 2
+/*
+var num = Number(prompt());
+
+num%3 == 0 && num%4 == 0 ? console.log('Yes') : console.log('No');
+*/
+
+// 3
+/*
+var num1 ,num2;
+num1 = prompt();
+num2 = prompt();
+
+num1 > num2 ? console.log(num1) : console.log(num2);
+*/
+
+// 4
+/*
+var num = prompt(); 
+
+num >= 0 ? console.log('positive') : console.log('negative'); 
+*/
+
+// 5 
+/*
+
+var n1 , n2 , n3;
+n1 = Number (prompt()) ;
+n2 = Number (prompt()) ;
+n3 = Number (prompt()) ;
+
+if (n1 > n2 && n1 > n3) {
+      if (n2 < n3) {
+          console.log('max element ' + n1); 
+          console.log('min element ' + n2); 
+      } else {
+        console.log('max element ' + n1); 
+        console.log('min element ' + n3);  
+      }
+
+} else if (n2 > n1 && n2 > n3) {
+    if (n1 < n3) {
+        console.log('max element ' + n2); 
+        console.log('min element ' + n1); 
+    } else {
+      console.log('max element ' + n2); 
+      console.log('min element ' + n3);  
+    }
+
+} else if (n3 > n1 && n3 > n2) {
+    if (n1 < n2) {
+        console.log('max element ' + n3); 
+        console.log('min element ' + n1); 
+    } else {
+      console.log('max element ' + n3); 
+      console.log('min element ' + n2);  
+    }
+
+}
+
+*/
+
+// 6 , 7
+/*
+
+var num = prompt();
+num%2 == 0 ? console.log('Even') : console.log('Odd');
+
+*/
+
+// 8 
+
+/* 
+var char = prompt();
+
+char == 'a' || char == 'u' || char == 'o' || char == 'i' || char == 'e' ? console.log('vowel') 
+: console.log('consonant') ;
+
+*/
+// 9 
+/*
+var num = prompt();
+
+for (var i = 1 ;  i <= num ; i++ )
+      console.log(i);
+
+*/
+
+// 10 
+/*
+var num = prompt();
+
+for (var i = 1 ; i <= 12 ; i++)
+   console.log(num*i);
+
+*/
+
+// 11 
+/*
+var num = prompt();
+for (var i = 1 ; i <= num ; i++) {
+    if ( i % 2 == 0)
+      console.log(i);
+}
+     
+*/
+// 12 
+/*
+var num , power ; 
+num = prompt();
+power = prompt();
+var tot = 1;
+for (var i = 1 ; i <= power ; i++) {
+      
+    tot *= num;
+           
+}
+console.log(tot);
+
+*/
+
+// 12 
+
+/*
+
+var num , total = 0 , avg = 1 , per;
+for (var i=0 ;  i < 5 ; i++) {
+    num = Number (prompt());
+    total += num;
+}
+avg = total / 5;
+per = (total*100) / 500 ;
+console.log('Score is' + ' ' + total);
+console.log('Average is' + ' ' + avg);
+console.log('Persantage is' + ' ' + per + '%');
+
+*/
+
+// 13
+
+/*
+
+var num = Number(prompt());
+if (num === 1 || num === 3 || num === 5 || num === 7 || num === 8 || num === 10 || num === 12) {
+   console.log('Days on Month = : 31');    
+} else if (num === 2) {
+ console.log('Days on Month = : 28');  
+} else {
+    console.log('Days on Month = : 30');  
+} 
+
+*/
+
+// 14 
+  /*
+var num = Number (prompt('Enter Number of Subjects') );
+var sub , total = 0 , per;
+for (var i = 0 ; i < num ; i++) {
+    sub = Number(prompt('Enter your Score'));
+    total += sub;
+}
+per = (total * 100) / (num*100);
+console.log(per);
+if (per >= 90) {
+    console.log('Grad A');
+} else if (per >= 80 && per < 90) {
+    console.log('Grad B');  
+} else if (per >= 70 && per < 80) {
+    console.log('Grad C');  
+} else if (per >= 60 && per < 70) {
+    console.log('Grad D');  
+} else if (per >= 40 && per < 60) {
+    console.log('Grad E');  
+} else if (per >= 0 && per < 40) {
+    console.log('Grad F');  
+}
+
+*/
+
+// 20
+
+/*
+ var n = 5;
+ var arr = [];
+ for (var i = 0 ; i < n ; i++)
+      arr.push(prompt());
+
+
+ console.log(arr.length);
+ console.log(arr);
+
+ */
+/*
+ var john = {
+     name : 'John', 
+     mass : 60 ,
+     height : 1.88 ,
+     calcB : function () {
+         this.bmi = this.mass / (this.height * this.height);
+         return this.bmi;
+     }
+
+ } 
+
+ var amin = {
+    name : 'Amin', 
+    mass : 70  ,
+    height : 1.85  ,
+    calcB : function () {
+        this.bmi = this.mass / (this.height *this.height);
+        return this.bmi;
+    }
+
+} 
+
+console.log(amin);
+console.log(amin.calcB());
+console.log(amin);
+
+*/
+
+/// calc bills and tips app 
+// two persons go to resturant and calc tips depend on % ;;
+
+/*
+
+var jbills = {
+    arr : [124 , 48 , 268 ,180 , 42] ,
+    arrTips : [] ,
+    arrPaid : [] ,
+    calcTip : function () {
+     for (var i = 0; i < this.arr.length ;i++){
+          if (this.arr[i] < 50) {
+              this.arrTips[i] = this.arr[i] * .2 ;
+              this.arrPaid[i] = this.arr[i] + this.arrTips[i];
+          } else if (this.arr[i] >= 50 && this.arr[i] <= 200) {
+            this.arrTips[i] = this.arr[i] * .15 ;
+            this.arrPaid[i] = this.arr[i] + this.arrTips[i];
+          } else {
+            this.arrTips[i] = this.arr[i] * .1 ;
+            this.arrPaid[i] = this.arr[i] + this.arrTips[i];
+          }    
+     }
+    }
+}
+
+console.log(jbills);
+
+console.log('---------------------------------');
+
+jbills.calcTip();
+
+console.log(jbills);
+
+
+
+var mbills = {
+    arr : [77 , 475 , 110 ,45] ,
+    arrTips : [] ,
+    arrPaid : [] ,
+    calcTip : function () {
+     for (var i = 0; i < this.arr.length ;i++){
+          if (this.arr[i] < 100) {
+              this.arrTips[i] = this.arr[i] * .2 ;
+              this.arrPaid[i] = this.arr[i] + this.arrTips[i];
+          } else if (this.arr[i] >= 100 && this.arr[i] <= 300) {
+            this.arrTips[i] = this.arr[i] * .1 ;
+            this.arrPaid[i] = this.arr[i] + this.arrTips[i];
+          } else {
+            this.arrTips[i] = this.arr[i] * .25 ;
+            this.arrPaid[i] = this.arr[i] + this.arrTips[i];
+          }    
+     }
+    }
+}
+mbills.calcTip();
+console.log(mbills);
+
+console.log('-----------------');
+
+function calcA (arr) {
+    var sum = 0;
+    for (var i = 0 ; i < arr.length ; i++) 
+      sum += arr[i];   
+      
+ return (sum / arr.length ) ; 
+
+}
+    
+    mbills.avg = calcA(mbills.arrTips);
+    jbills.avg = calcA(jbills.arrTips);
+
+
+   if ( mbills.avg  >  jbills.avg ) {
+             console.log('M has bigger average of tips than J they payed : ' +  mbills.avg );      
+   } else if  ( jbills.avg > mbills.avg  ) {
+    console.log('J has bigger average of tips than M they payed : ' + jbills.avg);      
+  }
+
+*/
