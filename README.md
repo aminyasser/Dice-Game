@@ -8,5 +8,6 @@ This game of 2 playeres. In each turn, a player rolls a dice as many times as he
 
 ## UI
 
-(home.png)
+!(home.png)
+
 
