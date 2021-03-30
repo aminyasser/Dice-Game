@@ -14,11 +14,11 @@ document.querySelector('.btn-roll').addEventListener('click' , function () {
     
 
     var diceDom1 = document.querySelector('.dice1');
-        diceDom1.src = 'dice-' + dice1 + '.png' ; 
+        diceDom1.src = 'img/' + 'dice-' + dice1 + '.png' ; 
         diceDom1.style.display = 'block';
 
     var diceDom2 = document.querySelector('.dice2');
-        diceDom2.src = 'dice-' + dice2 + '.png' ; 
+        diceDom2.src = 'img/' + 'dice-' + dice2 + '.png' ; 
         diceDom2.style.display = 'block';    
 
      if (dice1 !== 1 && dice2 !== 1) {   
